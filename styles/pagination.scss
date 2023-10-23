@@ -1,0 +1,45 @@
+.pagination {
+
+  width: 200px;
+  margin: 0 auto;
+
+  &__bar {
+    background-color: #EEEFF2;
+    border-radius: 32px;
+    height: 6px;
+    width: 100%;
+    border-radius: 3px;
+    margin-bottom: 16px;
+
+    &::after {
+      content: '';
+      display: block;
+      background-color: #780096;
+      height: 100%;
+      width: var(--width);
+      border-radius: 32px;
+      transition: width 0.36s ease-in-out;
+    }
+  }
+
+  &__arraws {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  &__left {
+  }
+
+  &__right {
+  }
+
+  &__current {
+  }
+
+  &__total {
+  }
+
+  
+}
